@@ -12,22 +12,22 @@
 ## 1. HTML Basics
 * **`<!DOCTYPE html>`** → Declares the document type (HTML5).
   ```html
-  <!DOCTYPE html>
+    <!DOCTYPE html>
   ```
 
 * **`<html>`** → Root element of the HTML document.
   ```html
-  <html> ... </html>
+    <html> ... </html>
   ```
 
 * **`<head>`** → Contains metadata (title, links, scripts, styles).
   ```html
-  <head><title>My Page</title></head>
+    <head><title>My Page</title></head>
   ```
 
 * **`<body>`** → Contains visible page content.
   ```html
-  <body><p>Hello World</p></body>
+    <body><p>Hello World</p></body>
   ```
 
 ---
@@ -36,7 +36,7 @@
 * **Element** → Defined by start `<tag>` and end `</tag>`.
 * **Attribute** → Provides extra info inside the opening tag.
   ```html
-  <p title="Tooltip text">This is a paragraph with an attribute.</p>
+    <p title="Tooltip text">This is a paragraph with an attribute.</p>
   ```
 
 ---
@@ -45,8 +45,8 @@
 
 * **`<h1>`–`<h6>`** → Define headings (h1 = largest, h6 = smallest).
   ```html
-  <h1>Main Title</h1>
-  <h3>Sub Heading</h3>
+    <h1>Main Title</h1>
+    <h3>Sub Heading</h3>
   ```
 
 ---
@@ -54,17 +54,17 @@
 ## 4. Paragraphs
 * **`<p>`** → Defines a paragraph.
   ```html
-  <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
   ```
 
 * **`<br>`** → Line break.
   ```html
-  Hello<br>World
+    Hello<br>World
   ```
 
 * **`<hr>`** → Horizontal line (divider).
   ```html
-  <hr>
+    <hr>
   ```
 
 ---
@@ -72,22 +72,22 @@
 ## 5. Formatting
 * **`<b>` / `<strong>`** → Bold text (strong = important).
   ```html
-  <strong>Important text</strong>
+    <strong>Important text</strong>
   ```
 
 * **`<i>` / `<em>`** → Italic text (em = emphasized).
   ```html
-  <em>Highlighted text</em>
+    <em>Highlighted text</em>
   ```
 
 * **`<u>`** → Underlined text.
   ```html
-  <u>Underlined</u>
+    <u>Underlined</u>
   ```
 
 * **`<mark>`** → Highlighted text.
   ```html
-  <mark>Highlighted</mark>
+    <mark>Highlighted</mark>
   ```
 
 ---
@@ -95,7 +95,7 @@
 ## 6. Links
 * **`<a>`** → Creates a hyperlink.
   ```html
-  <a href="https://example.com" target="_blank">Visit Example</a>
+    <a href="https://example.com" target="_blank">Visit Example</a>
   ```
 
 ---
@@ -107,11 +107,11 @@
 * **`<style>`** → Internal CSS.
 * **`<script>`** → JavaScript code.
   ```html
-  <head>
-    <title>My Site</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-  </head>
+    <head>
+        <title>My Site</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
   ```
 
 ---
@@ -119,7 +119,7 @@
 ## 8. Images
 * **`<img>`** → Embeds an image.
   ```html
-  <img src="image.jpg" alt="A sample image" width="200">
+    <img src="image.jpg" alt="A sample image" width="200">
   ```
 
 ---
@@ -130,10 +130,10 @@
 * **`<th>`** → Table header cell.
 * **`<td>`** → Table data cell.
   ```html
-  <table border="1">
-    <tr><th>Name</th><th>Age</th></tr>
-    <tr><td>Alice</td><td>22</td></tr>
-  </table>
+    <table border="1">
+        <tr><th>Name</th><th>Age</th></tr>
+        <tr><td>Alice</td><td>22</td></tr>
+    </table>
   ```
 
 ---
@@ -143,10 +143,10 @@
 * **`<ol>`** → Ordered list (numbers).
 * **`<li>`** → List item.
   ```html
-  <ul>
-    <li>Apple</li>
-    <li>Banana</li>
-  </ul>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
   ```
 
 ---
@@ -154,12 +154,12 @@
 ## 11. Blocks & Layout
 * **`<div>`** → Block-level container.
   ```html
-  <div style="background:lightblue;">Block element</div>
+    <div style="background:lightblue;">Block element</div>
   ```
 
 * **`<span>`** → Inline container.
   ```html
-  <p>This is <span style="color:red;">highlighted</span> text.</p>
+    <p>This is <span style="color:red;">highlighted</span> text.</p>
   ```
 
 * **Semantic layout tags**:
@@ -169,8 +169,8 @@
   * `<article>` → Self-contained content.
   * `<aside>` → Sidebar content.
   ```html
-  <header><h1>My Blog</h1></header>
-  <section><article>Blog Post</article></section>
+    <header><h1>My Blog</h1></header>
+    <section><article>Blog Post</article></section>
   ```
 
 ---
@@ -183,15 +183,15 @@
 * **`<button>`** → Button.
 
   ```html
-  <form>
-    <label>Name:</label>
-    <input type="text"><br>
-    <textarea></textarea><br>
-    <select>
-      <option>Option 1</option>
-    </select><br>
-    <button type="submit">Submit</button>
-  </form>
+    <form>
+        <label>Name:</label>
+        <input type="text"><br>
+        <textarea></textarea><br>
+        <select>
+        <option>Option 1</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
   ```
 
 ---
@@ -199,21 +199,21 @@
 ## 13. Multimedia
 * **`<audio>`** → Embed audio.
   ```html
-  <audio controls>
-    <source src="song.mp3" type="audio/mp3">
-  </audio>
+    <audio controls>
+        <source src="song.mp3" type="audio/mp3">
+    </audio>
   ```
 
 * **`<video>`** → Embed video.
   ```html
-  <video controls width="300">
-    <source src="movie.mp4" type="video/mp4">
-  </video>
+    <video controls width="300">
+        <source src="movie.mp4" type="video/mp4">
+    </video>
   ```
 
 * **`<iframe>`** → Embed another webpage (e.g., YouTube).
   ```html
-  <iframe src="https://example.com" width="300" height="200"></iframe>
+    <iframe src="https://example.com" width="300" height="200"></iframe>
   ```
 
 ---
