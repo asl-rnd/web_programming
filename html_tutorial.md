@@ -1,9 +1,10 @@
 # **HTML (Structure & Semantics)**
 
-## 1. HTML Basics Strunture
-### `<!DOCTYPE html>` → Declares the document type (HTML5).
+### `<!DOCTYPE html>`
+→ Declares the document type (HTML5).
 
-### `<html>` → Root element of the HTML document.
+### `<html>` 
+→ Root element of the HTML document.
   ```html
   <!DOCTYPE html>
   <html>
@@ -12,7 +13,8 @@
   </html>
   ```
 
-### `<head>` → Contains metadata (title, meta info, links, scripts, styles).
+### `<head>` 
+→ Contains metadata (title, meta info, links, scripts, styles).
 * **`<title>`** → Page title (browser tab).
 * **`<meta>`** → Metadata (charset, description, viewport).
 * **`<link>`** → Link to external resources (CSS, favicon).
@@ -33,7 +35,8 @@
   </html>
   ```
 
-### `<body>` → Contains visible page content.
+### `<body>`
+→ Contains visible page content.
 ---
 #### Elements & Attributes:
 * **Element** → Defined by start `<tag>` and end `</tag>`.<br>
@@ -99,7 +102,7 @@
 
 ---
 
-## 9. Tables
+#### Tables
 * **`<table>`** → Creates a table.
 * **`<tr>`** → Table row.
 * **`<th>`** → Table header cell.
