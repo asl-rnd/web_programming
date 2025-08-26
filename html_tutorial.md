@@ -3,7 +3,7 @@
 ### <!DOCTYPE html>
 → Declares the document type (HTML5).
 
-### <html> 
+### `<html>`
 → Root element of the HTML document.
   ```html
   <!DOCTYPE html>
@@ -13,7 +13,7 @@
   </html>
   ```
 
-### <head> 
+### `<head>` 
 → Contains metadata (title, meta info, links, scripts, styles).
 * **`<title>`** → Page title (browser tab).
 * **`<meta>`** → Metadata (charset, description, viewport).
@@ -35,7 +35,7 @@
   </html>
   ```
 
-### <body>
+### `<body>`
 → Contains visible page content.
 
 #### Elements & Attributes:
