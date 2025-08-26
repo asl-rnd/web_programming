@@ -1,6 +1,6 @@
 # **HTML (Structure & Semantics)**
 
-### <!DOCTYPE html>
+### `<!DOCTYPE html>`
 → Declares the document type (HTML5).
 
 ### `<html>`
