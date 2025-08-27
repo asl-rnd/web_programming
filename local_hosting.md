@@ -67,7 +67,7 @@ app = Flask(__name__, static_folder=".", static_url_path="")
 ```code
 @app.route("/")
 def home():
-return send_from_directory(".", index.html)
+    return send_from_directory(".", index.html)
 ```
 
 - `@app.route("/")` → defines what should happen when someone visits `/` (the root URL, e.g., `http://localhost:5000/`).
@@ -77,7 +77,6 @@ return send_from_directory(".", index.html)
 ####
 ```code
 if __name__ == "__main__":
-    # '0.0.0.0' makes server visible to others in same LAN.
     app.run(host="0.0.0.0", port=5000, debug=False)
 ```
 - `if __name__ == "__main__"`: → ensures the app runs only if you directly execute `app.py`.
