@@ -101,3 +101,24 @@ project/
         def home():
             return send_from_directory("templates", "index.html")
     ```
+
+### Case B:
+```code
+project/
+    static/
+        style.css
+        script.js
+        image.jpg
+    templates/
+        index.html
+    app.py
+```
+- initialize Flask like this:
+    ```code
+        app = Flask(__name__, static_folder="static", static_url_path="/static")
+    ```
+
+### ✅ Rule of Thumb
+- `static_folder` → where CSS/JS/images go.
+- `send_from_directory("folder", "file")` → use it when serving an HTML file from a custom folder (like `templates/`).
+- **Always update the folder paths in app.py to match the project structure.**
