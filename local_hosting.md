@@ -48,14 +48,14 @@
 
 ####
 ```
-    from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory
 ```
 - Imports Flask → the web framework that lets you create the server.
 - Imports `send_from_directory` → a helper function that serves files (like index.html, images, CSS, etc.) from a folder you specify.
 
 ####
 ```
-    app = Flask(__name__, static_folder=".", static_url_path="")
+app = Flask(__name__, static_folder=".", static_url_path="")
 ```
 - Creates the Flask app (the server object).
 - `__name__` tells Flask where the app is located.
@@ -65,9 +65,9 @@
 
 ####
 ```code
-    @app.route("/")
-    def home():
-    return send_from_directory(".", index.html)
+@app.route("/")
+def home():
+return send_from_directory(".", index.html)
 ```
 
 - `@app.route("/")` → defines what should happen when someone visits `/` (the root URL, e.g., `http://localhost:5000/`).
@@ -76,9 +76,9 @@
 
 ####
 ```code
-    if __name__ == "__main__":
-        # '0.0.0.0' makes server visible to others in same LAN.
-        app.run(host="0.0.0.0", port=5000, debug=False)
+if __name__ == "__main__":
+    # '0.0.0.0' makes server visible to others in same LAN.
+    app.run(host="0.0.0.0", port=5000, debug=False)
 ```
 - `if __name__ == "__main__"`: → ensures the app runs only if you directly execute `app.py`.
 - `app.run(host="0.0.0.0", port=5000, debug=False)` →
