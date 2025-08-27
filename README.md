@@ -1,8 +1,8 @@
 # Web Programming Sessional | CCE-1206
 
-👤 **[Md Abu Bakar Siddiq Sayem]()**
+👤 **[Md Abu Bakar Siddiq Sayem](#)**
 - 💼 Adjunct Faculty, Department of CCE, IIUC
-- 📧 Email: abssayem121194@gmail.com  
+- ✉️ Email: abssayem121194@gmail.com  
 - 📞 Phone: +8801825507837
 ---
 ### Classes:
@@ -14,3 +14,5 @@
 ### Resources:
 1. [HTML Tutorial](html_tutorial.md)
 2. [How to Host Locally](local_hosting.md)
+
+---
