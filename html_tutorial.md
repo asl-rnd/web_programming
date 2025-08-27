@@ -1,9 +1,9 @@
 # **HTML (Structure & Semantics)**
 
-### `<!DOCTYPE html>`
+## `<!DOCTYPE html>`
 → Declares the document type (HTML5).
 
-### `<html>`
+## `<html>`
 → Root element of the HTML document.
   ```html
   <!DOCTYPE html>
@@ -13,7 +13,7 @@
   </html>
   ```
 
-### `<head>` 
+## `<head>` 
 → Contains metadata (title, meta info, links, scripts, styles).
 * **`<title>`** → Page title (browser tab).
 * **`<meta>`** → Metadata (charset, description, viewport).
@@ -35,7 +35,7 @@
   </html>
   ```
 
-### `<body>`
+## `<body>`
 → Contains visible page content.
 
 #### Elements & Attributes:
@@ -162,5 +162,73 @@
         </tr>
     </table>
   ```
-
 ---
+
+#### Lists
+* **`<ul>`** → Unordered list (bullets).
+* **`<ol>`** → Ordered list (numbers).
+* **`<dl>`** → Description/Definition list (indented).
+  * **`<dt>`** → Definition title
+  * **`<dd>`** → Definition data
+* **`<li>`** → List item.
+
+* **Ordered List**
+  ```code
+    <ol>
+      <li>Step-1</li>
+      <li>Step-2</li>
+      <li>Step-3</li>
+    </ol>
+  ```
+  - defining the type: (types: 1, A, a, I, i)
+      ```code
+        <ol type="A">
+          <li>Step-1</li>
+          <li>Step-2</li>
+          <li>Step-3</li>
+        </ol>
+      ```
+
+* **Unordered List**
+  ```code
+    <ul>
+      <li>Step-1</li>
+      <li>Step-2</li>
+      <li>Step-3</li>
+    </ul>
+  ```
+
+* **Definition List**
+  ```code
+    <dl>
+      <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+  ```
+
+* **Nested List**
+  ```code
+    <h3>Computer Primary Components</h3>
+    <ol>
+      <li>Input Device
+        <ol type="a">
+          <li>Direct Input
+            <ul>
+              <li>Scanner</li>
+            </ul>
+          </li>
+          <li>Indirect Input
+            <ul>
+              <li>Keyboard</li>
+              <li>Mouse</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li>Output Device</li>
+      <li>Processing Device</li>
+      <li>Storage Device</li>
+    </ol>
+  ```
