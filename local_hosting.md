@@ -84,3 +84,20 @@ if __name__ == "__main__":
     - `host="0.0.0.0"` makes the server accessible to other devices in the same LAN (like students in your class).
     - `port=5000` → the port number for your app (`http://your-ip:5000`).
     - `debug=False` → disables debug mode (students won’t see sensitive error details).
+
+---
+
+## What if project structure changes?
+### Case A:
+```code
+project/
+    templates/
+        index.html
+    app.py
+```
+- update `send_from_directory` to point to `templates/`:
+    ```code
+        @app.route("/")
+        def home():
+            return send_from_directory("templates", "index.html")
+    ```
