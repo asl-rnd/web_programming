@@ -1,7 +1,10 @@
 # Local Hosting and Client Access (Using Flask)
 #### Prerequisite
 1. Python
-2. Flask - Open terminal and run: `pip install flask`
+2. Flask - To install open terminal and run:
+    ```cmd
+        pip install flask
+    ```
 
 ### My Project Structure (No Sub-Directory)
 ```pgsql
