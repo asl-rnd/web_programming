@@ -2,7 +2,7 @@
 ### Prerequisite
 1. **Python**
 2. **Flask**
-    - To install open terminal and run:
+    - To install flask - open terminal and run:
         ```cmd
             pip install flask
         ```
