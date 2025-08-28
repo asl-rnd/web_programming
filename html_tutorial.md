@@ -103,15 +103,37 @@
   ```html
   <img src="image.jpg" alt="descript_image" width=100% height="400px">
   ```
-* **`<audio>`** → links to audio files.
-* **`<video>`** → links to video files.
+* **`<script>`** → Links to JavaScript
+  ```html
+  <script src="script.js"></script>
+  ```
+* **`<iframe>`** → Embeds another HTML page (internal or external).
+  ```html
+  <iframe src="https://www.example.com" width="600" height="400"></iframe>
+  ```
+* **`<audio>`** → Links to audio files.
+* **`<video>`** → Links to video files.
+  * **`<source>`** → Links media files inside `<audio>`, `<video>`.
+  * **`<track>`** → Links subtitle files (.vtt) to a `<video>`.
   ```html
   <audio src="sound.mp3"></audio>
   <video src="movie.mp4"></video>
+  <video controls>
+    <source src="movie.mp4" type="video/mp4">
+  </video>
+  <video controls>
+    <source src="movie.mp4" type="video/mp4">
+    <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  </video>
+
   ```
-* **`<script>`** → links to JavaScript
+* **`<object>`** → for embedding external resources like PDFs.
   ```html
-  <script src="script.js"></script>
+  <object data="document.pdf" type="application/pdf" width="600" height="400"></object>
+  ```
+* **`<meta>`** → Meta refresh (indirect link).
+  ```html
+  <meta http-equiv="refresh" content="5; url=https://example.com"> <!-- Redirects after 5 seconds -->
   ```
 ---
 
