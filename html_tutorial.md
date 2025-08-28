@@ -84,16 +84,35 @@
 
 ---
 
-#### Links and Images
-* **`<a>`** → Creates a hyperlink.
+#### Links, Images and Media
+* **`<a>`** → (Anchor) Creates a hyperlink.
+  * **href** → the target URL, file, or section. Links can point to:
+    * External websites (`https://...`)
+    * Internal files (`about.html`)
+    * Sections of the same page (`#id`)
+    * Email/phone (`mailto:someone@mail.com`, `tel:123456789`)
+    ```html
+    <a href="https://github.com/asl-rnd/web_programming/">ASL R&D Web Programming</a>
+    <a href="https://github.com/asl-rnd/web_programming/" target="_blank">ASL R&D Web Programming</a>   <!-- Opens in new tab -->
+    <a href="another.html">Another HTML Page</a>
+    <a href="### Section 2">Go to Section 2</a>
+    <a href="mailto:someone@example.com">someone@example.com</a>
+    <a href="tel:+8801XXXXXXXXX">+8801XXXXXXXXX</a>
+    ```
 * **`<img>`** → Embeds an image.
   ```html
-  <a href="https://example.com">Visit Example</a>
-  <a href="https://example.com" target="_blank">Visit Example</a>   <!-- Opens in new tab -->
-
   <img src="image.jpg" alt="descript_image" width=100% height="400px">
   ```
-
+* **<audio>** → links to audio files.
+* **<video>** → links to video files.
+  ```html
+  <audio src="sound.mp3"></audio>
+  <video src="movie.mp4"></video>
+  ```
+* **`<script>`** → links to JavaScript
+  ```html
+  <script src="script.js"></script>
+  ```
 ---
 
 #### Tables
