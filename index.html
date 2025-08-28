@@ -16,20 +16,22 @@
         <h6>Subheading (h6)</h6>
 
         <!-- Paragraphs & Text Formatting -->
+        <h1>Text & Formatting</h1><hr>
         <p>This is a <b>bold</b>, <i>italic</i>, <u>underlined</u> text. <br>
-        You can also use <strong>strong</strong>, <em>emphasis</em>, 
+        You can also use <strong>strong</strong>, <em>emphasis</em>; 
         <mark>highlight</mark>, <small>small text</small>, 
-        <del>deleted</del>, <ins>inserted</ins>, 
-        <sub>subscript</sub>, <sup>superscript</sup>.</p>
+        <del>deleted</del>, <ins>inserted</ins>,
+        <sub>subscript</sub>: H<sub>2</sub>SO<sub>4</sub>, <sup>superscript</sup>: a<sup>2</sup> + b<sup>2</sup> + 2ab = (a + b)<sup>2</sup></p>
 
-        <hr>
 
+        <h1>Links and Images</h1><hr>
         <!-- Links -->
         <p>Visit <a href="https://www.google.com" target="_blank">Google</a></p>
 
         <!-- Images -->
         <img src="https://via.placeholder.com/150" alt="Placeholder Image">
 
+        <h1>Lists</h1><hr>
         <!-- Lists -->
         <h3>Unordered List</h3>
         <ul>
@@ -48,82 +50,64 @@
         <h3>Description List</h3>
         <dl>
             <dt>HTML</dt>
-            <dd>HyperText Markup Language</dd>
+                <dd>HyperText Markup Language</dd>
             <dt>CSS</dt>
-            <dd>Cascading Style Sheets</dd>
+                <dd>Cascading Style Sheets</dd>
         </dl>
 
+        <h1>Tables</h1><hr>
         <!-- Table -->
         <h3>Table One</h3>
         <table border="1">
-            <caption>Stuent Table</caption>
-            <thead>
-                <tr>
-                    <th>STD ID</th>
-                    <th>Name</th>
-                    <th>Marks</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Alice</td>
-                    <td>90</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Bob</td>
-                    <td>85</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3">End of Table</td>
-                </tr>
-            </tfoot>
+            <tr><th>Std Id</th><th>Attance</th><th>Mid</th><th>Final</th></tr>
+            <tr><td>CCE001</td><td>10</td><td>24</td><td>40</td></tr>
+            <tr><td>CCE002</td><td>10</td><td>25</td><td>44</td></tr>
+            <tr><td>CCE003</td><td>8</td><td>20</td><td>48</td></tr>
+            <tr><td>CCE004</td><td>10</td><td>30</td><td>38</td></tr>
+            <tr><td>CCE005</td><td>7</td><td>20</td><td>50</td></tr>
         </table>
 
         <h3>Table Two</h3>
-        <table border="1">
-            <caption>Lab Evaluation</caption>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <caption><b>Lab Performance Evaluation</b></caption>
             <thead>
                 <tr>
-                    <th colspan="2">Student Name</th>
-                    <th colspan="3">Labs</th>
+                    <th colspan="2">Student Info</th>
+                    <th colspan="3">Lab Performance</th>
                     <th rowspan="2">Average</th>
                 </tr>
                 <tr>
-                    <th>First</th>
-                    <th>Last</th>
-                    <th>Lab1</th>
-                    <th>Lab2</th>
-                    <th>Lab3</th>
+                    <th>Std Id</th>
+                    <th>Name</th>
+                    <th>Lab-1</th>
+                    <th>Lab-2</th>
+                    <th>Lab-3</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Alex</td>
-                    <td>Max</td>
+                    <td>CCE001</td>
+                    <td>Alex Max</td>
                     <td>10</td>
                     <td>10</td>
                     <td>10</td>
                     <td>10</td>
                 </tr>
                 <tr>
-                    <td>Alex</td>
-                    <td>Min</td>
+                    <td>CCE002</td>
+                    <td>Alex Min</td>
+                    <td>--</td>
+                    <td>00</td>
                     <td>10</td>
-                    <td>10</td>
-                    <td>10</td>
-                    <td>10</td>
+                    <td>3</td>
                 </tr>
                 <tr>
-                    <td>Alex</td>
-                    <td>Avg</td>
+                    <td>CCE003</td>
+                    <td>Alex Avg</td>
                     <td>10</td>
+                    <td>--</td>
                     <td>10</td>
-                    <td>10</td>
-                    <td>10</td>
+                    <td>7</td>
                 </tr>
                 <tr>
                     <td rowspan="2"><b>Summary</b></td>
@@ -131,27 +115,73 @@
                     <td>10</td>
                     <td>10</td>
                     <td>10</td>
-                    <td>10</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td><strong>Min</strong></td>
                     <td>10</td>
                     <td>10</td>
                     <td>10</td>
-                    <td>10</td>
+                    <td></td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="6">End of Table</td>
+                    <td colspan="6">Web Programming (CCE00)</td>
                 </tr>
             </tfoot>
         </table>
+        <br>
 
+        <h3>Test Table</h3>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr><th colspan="10">Web Programming Lab Records</th></tr>
+            <tr>
+                <th rowspan="2">Std Id</th>
+                <th colspan="2">Lab-01</th>
+                <th colspan="2">Lab-02</th>
+                <th colspan="2">Lab-03</th>
+                <th colspan="2">Total</th>
+                <th rowspan="2">Final Marks<br>(Attendance % marks)</th>
+            </tr>
+            <tr>
+                <th>Present</th><th>Marks</th>
+                <th>Present</th><th>Marks</th>
+                <th>Present</th><th>Marks</th>
+                <th>Total Present</th><th>Total Marks</th>
+            </tr>
+            <tr>
+                <td>CCE001</td>
+                <td>Y</td><td>10</td>
+                <td>Y</td><td>10</td>
+                <td>Y</td><td>10</td>
+                <td>3</td><td>30</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>CCE002</td>
+                <td>Y</td><td>10</td>
+                <td>N</td><td>00</td>
+                <td>Y</td><td>10</td>
+                <td>2</td><td>20</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>CCE003</td>
+                <td>Y</td><td>00</td>
+                <td>N</td><td>00</td>
+                <td>Y</td><td>10</td>
+                <td>2</td><td>10</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <h1>Block and Inline</h1><hr>
         <!-- Block vs Inline -->
         <div>This is a block element (div)</div>
         <span>This is an inline element (span)</span>
 
+        <h1>Forms</h1><hr>
         <!-- Forms -->
         <h3>Form Example</h3>
         <form action="#" method="post">
@@ -189,6 +219,7 @@
             <input type="reset" value="Reset">
         </form>
 
+        <h1>Multimedia</h1><hr>
         <!-- Multimedia -->
         <h3>Multimedia Example</h3>
         <audio controls>
@@ -201,6 +232,7 @@
             Your browser does not support video.
         </video>
 
+        <h1>Semantic HTML</h1><hr>
         <!-- Semantic Elements -->
         <header><h2>Header Section</h2></header>
         <nav>

@@ -48,7 +48,6 @@
 
 * **`<h1>`–`<h6>`** → Define headings (h1 = largest, h6 = smallest).
 * **`<p>`** → Defines a paragraph.
-* **`<article>`** → Defines independent piece of content. Can contain - headings, paragraph, ...
   ```html
   <!DOCTYPE html>
   <html>
@@ -72,6 +71,8 @@
 * **`<del>`** → Deleted text.
 * **`<br>`** → Line break.
 * **`<hr>`** → Horizontal line (divider).
+* **`<small>`** → Tiny text (relatively small)
+* **`<sub>`** → Subsript; **`<sup>`** → Supersript
   ```html
   <!DOCTYPE html>
   <html>
@@ -79,11 +80,9 @@
     <body>
       <h1><mark>Internet Technology</mark></h1>
       <p>This is the paragraph that represents a block of text.<br><del>Can contain</del> Can not contain any other elements.</p>
-      <article>
-        <h2><u>Article</u></h2>
-        <p>Article used for things like - <b>blog posts</b>, <strong>new articles</strong>, or any block of content that can stand alone.</p>
-        <p>Article indicates this chunk is a <i>meaningful</i> and <em>complete</em> content.</p>
-      </article><hr>
+      <p>Article used for things like - <b>blog posts</b>, <strong>new articles</strong>, or any block of content that can stand alone.</p>
+      <p>Article indicates this chunk is a <i>meaningful</i> and <em>complete</em> content.</p>
+      <p>Subscript Example: H<sub>2</sub>SO<sub>4</sub>; Supperscript Example: a<sup>2</sup> + b<sup>2</sup> + 2ab = (a + b)<sup>2</p>
     </body>
   </html>
   ```
@@ -233,3 +232,13 @@
     </ol>
   ```
   ---
+
+
+
+
+  ---
+  ### Semantic HTML
+* **`<article>`** → Defines independent piece of content. Can contain - headings, paragraph, ...
+  <article>
+    <h2><u>Article</u></h2>
+  </article>
