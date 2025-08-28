@@ -91,20 +91,20 @@
     * Internal files (`about.html`)
     * Sections of the same page (`#id`)
     * Email/phone (`mailto:someone@mail.com`, `tel:123456789`)
-    ```html
-    <a href="https://github.com/asl-rnd/web_programming/">ASL R&D Web Programming</a>
-    <a href="https://github.com/asl-rnd/web_programming/" target="_blank">ASL R&D Web Programming</a>   <!-- Opens in new tab -->
-    <a href="another.html">Another HTML Page</a>
-    <a href="### Section 2">Go to Section 2</a>
-    <a href="mailto:someone@example.com">someone@example.com</a>
-    <a href="tel:+8801XXXXXXXXX">+8801XXXXXXXXX</a>
-    ```
+  ```html
+  <a href="https://github.com/asl-rnd/web_programming/">ASL R&D Web Programming</a>
+  <a href="https://github.com/asl-rnd/web_programming/" target="_blank">ASL R&D Web Programming</a>   <!-- Opens in new tab -->
+  <a href="another.html">Another HTML Page</a>
+  <a href="### Section 2">Go to Section 2</a>
+  <a href="mailto:someone@example.com">someone@example.com</a>
+  <a href="tel:+8801XXXXXXXXX">+8801XXXXXXXXX</a>
+  ```
 * **`<img>`** → Embeds an image.
   ```html
   <img src="image.jpg" alt="descript_image" width=100% height="400px">
   ```
-* **<audio>** → links to audio files.
-* **<video>** → links to video files.
+* **`<audio>`** → links to audio files.
+* **`<video>`** → links to video files.
   ```html
   <audio src="sound.mp3"></audio>
   <video src="movie.mp4"></video>
