@@ -55,11 +55,6 @@
     <body>
       <h1>Internet Technology</h1>
       <p>This is the paragraph that represents a block of text. Can not contain any other elements.</p>
-      <article>
-        <h2>Article</h2>
-        <p>Article used for things like - blog posts, new articles, or any block of content that can stand alone.</p>
-        <p>Article indicates this chunk is a meaningful and complete content.</p>
-      </article>
     </body>
   </html>
   ```
@@ -240,5 +235,7 @@
   ### Semantic HTML
 * **`<article>`** → Defines independent piece of content. Can contain - headings, paragraph, ...
   <article>
-    <h2><u>Article</u></h2>
+    <h2>Article</h2>
+    <p>Article used for things like - blog posts, new articles, or any block of content that can stand alone.</p>
+    <p>Article indicates this chunk is a meaningful and complete content.</p>
   </article>
