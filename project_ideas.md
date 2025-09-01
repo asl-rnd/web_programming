@@ -64,3 +64,12 @@
 - **Frontend:** Submit recipe (name, ingredients, steps).
 - **Backend:** Save in DB, show recipes list.
 - **Ensure:** Limit text length for ingredients/steps.
+
+# Development Plan:
+- **(setup → routes → DB → deployment)**
+- **Rules for Project:**
+    - Must have at least one form (input).
+    - Must save & retrieve data from DB.
+    - Must use HTML+CSS+JS for UI.
+    - Must have at least one dynamic page (e.g., list of items).
+- **`present the project + explain how client-side & server-side connect.`**
