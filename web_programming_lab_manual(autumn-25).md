@@ -47,7 +47,7 @@
     </body>
   </html>
   ```
-#### Formatting
+#### Text Formatting
 * **`<b>` / `<strong>`** → Bold text (strong = important).
 * **`<i>` / `<em>`** → Italic text (em = emphasized).
 * **`<u>`** → Underlined text.
