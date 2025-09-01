@@ -13,7 +13,7 @@
 - Input validation (empty fields, duplicate emails).
 - Error handling (e.g., database connection issues).
 - Separation of templates (`templates/`) and static files (`static/`).
-#### HTML+CSS+JS → Flask Routing → Database → Hosting.
+#### `HTML+CSS+JS → Flask Routing → Database → Hosting.`
 
 ## 01. Guestbook / Visitor Log
 - **Frontend:** Form to enter name + message.
