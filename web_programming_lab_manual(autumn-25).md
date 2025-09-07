@@ -72,7 +72,7 @@
   </html>
   ```
 
-#### Links, Images and Media
+#### Links and Images
 * **`<a>`** → (Anchor) Creates a hyperlink.
   * **href** → the target URL, file, or section. Links can point to:
     * External websites (`https://...`)
