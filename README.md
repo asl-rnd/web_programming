@@ -20,10 +20,10 @@
 ## Performance Evaluation Process
 <table>
     <tr>
-        <th colspan="2">Attendance (10)</th>
-        <th colspan="2">Class Performance (5) + Assignment (5)</th>
-        <th rowspan="3">Lab Exams (30)</th>
-        <th rowspan="2">Final Project (50)</th>
+        <th rowpan="2">Attendance (10)</th>
+        <th rowpan="2">Class Performance (5) + Assignment (5)</th>
+        <th colspan="3">Lab Exams (30)</th>
+        <th colspan="2">Final Project (50)</th>
     </tr>
     <tr>
         <td>HTML (10)</td><td>CSS (10)</td><td>JavaScript (10)</td>
