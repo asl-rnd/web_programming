@@ -12,7 +12,7 @@
 ---
 
 ## Resources:
-- **[HTML Tutorial](html_tutorial.md)**
+- **[Web Programming Lab Manual (Autumn-25)](web_programming_lab_manual(autumn-25).md)**
 - **[How to Host Locally (Python)](local_hosting.md)**
 
 ---
