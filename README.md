@@ -16,3 +16,14 @@
 2. [How to Host Locally](local_hosting.md)
 
 ---
+
+### Performance Evaluation Process
+1. **Attendance - 10**
+2. **Lab Performance (5) + Assignment (5) - 10**
+3. **Lab Exams - 30**
+    - HTML - 10
+    - CSS - 10
+    - JavaScript - 10
+4. Final Project - 50
+    - Project - 30
+    - Viva - 20
