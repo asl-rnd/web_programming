@@ -27,7 +27,7 @@
     </tr>
     <tr>
         <th>Assignment (5)</th>
-        <td>HTML 10</td><td>CSS 10</td><td>JavaScript 10</td>
+        <td>HTML (10)</td><td>CSS (10)</td><td>JavaScript (10)</td>
         <td>Project (30)</td><td>Viva (20)</td>
     </tr>
 </table>
