@@ -20,7 +20,7 @@
 ## Performance Evaluation Process
 <table>
     <tr>
-        <th rowspan="2">Attendance <br> 10</th>
+        <th rowspan="2">Attendance (10)</th>
         <th>Class Performance (5)</th>
         <th colspan="3">Lab Exams (30)</th>
         <th colspan="2">Final Project (50)</th>
