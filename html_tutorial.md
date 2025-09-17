@@ -125,7 +125,6 @@
     <source src="movie.mp4" type="video/mp4">
     <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
   </video>
-
   ```
 * **`<object>`** → for embedding external resources like PDFs.
   ```html
