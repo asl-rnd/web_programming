@@ -103,8 +103,8 @@
   * **`<source>`** → Links media files inside `<audio>`, `<video>`.
   * **`<track>`** → Links subtitle files (.vtt) to a `<video>`.
   ```html
-  <audio src="sound.mp3"></audio>
-  <video src="movie.mp4"></video>
+  <audio src="sound.mp3" controls></audio>
+  <video src="movie.mp4" controls></video>
   <video controls>
     <source src="movie.mp4" type="video/mp4">
   </video>
