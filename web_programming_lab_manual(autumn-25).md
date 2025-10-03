@@ -247,3 +247,20 @@
         </tr>
     </table>
   ```
+
+#### Forms
+* **`<form>`** → The container element for all form controls.
+  * **`action`**: Specifies where to send the form data when a form is submitted (e.g., a URL).
+  * **`method`**: Specifies the HTTP method used to send the data (`GET` or `POST`).
+* **`<input>`** → Used to create different types of input fields (text, buttons, checkboxes, etc.).
+  * **`type`**: Defines the kind of input (e.g., text, password, submit, radio, checkbox).
+  * **`name`**: Essential for identifying the data when it's submitted to the server.
+  * **`value`**: The initial value of the input field.
+  * **`placeholder`**: A short hint displayed in the input field before the user enters a value.
+* **`<label>`** → Provides a descriptive label for an input element.
+  * **`for`**: Specifies which form element the label is bound to (the value must match the target input's `id`).
+* **`<textarea>`** → A multi-line text input control, ideal for long comments or messages.
+* **`<button>`** → A clickable button, usually used to submit or reset the form.
+  * **`type`**: Defines the button's behavior (`submit`, `reset`, or `button`).
+* **`<select>`** → Creates a drop-down list.
+  * **`<option>`**: Defines an available option within the `<select>` list.
