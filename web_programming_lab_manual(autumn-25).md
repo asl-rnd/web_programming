@@ -264,3 +264,40 @@
   * **`type`**: Defines the button's behavior (`submit`, `reset`, or `button`).
 * **`<select>`** → Creates a drop-down list.
   * **`<option>`**: Defines an available option within the `<select>` list.
+
+  ```html
+    <form action="#" method="post">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
+
+      <label>Email:</label>
+      <input type="email" name="email"><br><br>
+
+      <label>Password:</label>
+      <input type="password" name="password"><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female<br><br>
+
+      <label>Hobbies:</label>
+      <input type="checkbox" name="hobby" value="Reading">Reading
+      <input type="checkbox" name="hobby" value="Sports">Sports<br><br>
+
+      <label>Country:</label>
+      <select name="country">
+          <option>Bangladesh</option>
+          <option>India</option>
+          <option>Nepal</option>
+      </select><br><br>
+
+      <label>Message:</label><br>
+      <textarea rows="3" cols="30"></textarea><br><br>
+
+      <label>Upload File:</label>
+      <input type="file"><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+  </form>
+  ```
