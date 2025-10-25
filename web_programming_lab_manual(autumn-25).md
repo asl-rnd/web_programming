@@ -301,3 +301,13 @@
       <input type="reset" value="Reset">
   </form>
   ```
+
+  #### Semantic HTML
+  * **`header`** →
+  * **`main`** →
+    * **`section`** →
+    * **`div`** →
+  * **`footer`** →
+  * **`nav`** →
+
+> See the `index.html` file for semantic implementation example.
