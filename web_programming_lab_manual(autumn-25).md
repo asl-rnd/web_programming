@@ -128,63 +128,63 @@
 
 * **Ordered List**
   ```html
-    <ol>
-      <li>Step-1</li>
-      <li>Step-2</li>
-      <li>Step-3</li>
-    </ol>
+  <ol>
+    <li>Step-1</li>
+    <li>Step-2</li>
+    <li>Step-3</li>
+  </ol>
   ```
   - defining the type: (types: 1, A, a, I, i)
       ```html
-        <ol type="A">
-          <li>Step-1</li>
-          <li>Step-2</li>
-          <li>Step-3</li>
-        </ol>
-      ```
+      <ol type="A">
+        <li>Step-1</li>
+        <li>Step-2</li>
+        <li>Step-3</li>
+      </ol>
+    ```
 
 * **Unordered List**
   ```html
-    <ul>
-      <li>Step-1</li>
-      <li>Step-2</li>
-      <li>Step-3</li>
-    </ul>
+  <ul>
+    <li>Step-1</li>
+    <li>Step-2</li>
+    <li>Step-3</li>
+  </ul>
   ```
 
 * **Definition List**
   ```html
-    <dl>
-      <dt>HTML</dt>
-        <dd>HyperText Markup Language</dd>
-      <dt>CSS</dt>
-        <dd>Cascading Style Sheets</dd>
-    </dl>
+  <dl>
+    <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+  </dl>
   ```
 
 * **Nested List**
   ```html
-    <h3>Computer Primary Components</h3>
-    <ol>
-      <li>Input Device
-        <ol type="a">
-          <li>Direct Input
-            <ul>
-              <li>Scanner</li>
-            </ul>
-          </li>
-          <li>Indirect Input
-            <ul>
-              <li>Keyboard</li>
-              <li>Mouse</li>
-            </ul>
-          </li>
-        </ol>
-      </li>
-      <li>Output Device</li>
-      <li>Processing Device</li>
-      <li>Storage Device</li>
-    </ol>
+  <h3>Computer Primary Components</h3>
+  <ol>
+    <li>Input Device
+      <ol type="a">
+        <li>Direct Input
+          <ul>
+            <li>Scanner</li>
+          </ul>
+        </li>
+        <li>Indirect Input
+          <ul>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+    <li>Output Device</li>
+    <li>Processing Device</li>
+    <li>Storage Device</li>
+  </ol>
   ```
 
 #### Tables
