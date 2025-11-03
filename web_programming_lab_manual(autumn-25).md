@@ -127,7 +127,7 @@
 * **`<li>`** → List item.
 
 * **Ordered List**
-  ```code
+  ```html
     <ol>
       <li>Step-1</li>
       <li>Step-2</li>
@@ -135,7 +135,7 @@
     </ol>
   ```
   - defining the type: (types: 1, A, a, I, i)
-      ```code
+      ```html
         <ol type="A">
           <li>Step-1</li>
           <li>Step-2</li>
@@ -144,7 +144,7 @@
       ```
 
 * **Unordered List**
-  ```code
+  ```html
     <ul>
       <li>Step-1</li>
       <li>Step-2</li>
@@ -153,7 +153,7 @@
   ```
 
 * **Definition List**
-  ```code
+  ```html
     <dl>
       <dt>HTML</dt>
         <dd>HyperText Markup Language</dd>
@@ -163,7 +163,7 @@
   ```
 
 * **Nested List**
-  ```code
+  ```html
     <h3>Computer Primary Components</h3>
     <ol>
       <li>Input Device
@@ -204,7 +204,7 @@
 ```
 * **`colspan`** → Merge table colums.
 * **`rowspan`** → Merge table rows.
-```html
+  ```html
   <table border="1" cellpadding="5" cellspacing="0">
       <tr><th colspan="10">Web Programming Lab Records</th></tr>
       <tr>
@@ -246,7 +246,7 @@
           <td>4</td>
       </tr>
   </table>
-```
+  ```
 
 #### Forms
 * **`<form>`** → The container element for all form controls.
@@ -266,39 +266,39 @@
   * **`<option>`**: Defines an available option within the `<select>` list.
 
 ```html
-  <form action="#" method="post">
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
+<form action="#" method="post">
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
 
-    <label>Email:</label>
-    <input type="email" name="email"><br><br>
+  <label>Email:</label>
+  <input type="email" name="email"><br><br>
 
-    <label>Password:</label>
-    <input type="password" name="password"><br><br>
+  <label>Password:</label>
+  <input type="password" name="password"><br><br>
 
-    <label>Gender:</label>
-    <input type="radio" name="gender" value="male">Male
-    <input type="radio" name="gender" value="female">Female<br><br>
+  <label>Gender:</label>
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="female">Female<br><br>
 
-    <label>Hobbies:</label>
-    <input type="checkbox" name="hobby" value="Reading">Reading
-    <input type="checkbox" name="hobby" value="Sports">Sports<br><br>
+  <label>Hobbies:</label>
+  <input type="checkbox" name="hobby" value="Reading">Reading
+  <input type="checkbox" name="hobby" value="Sports">Sports<br><br>
 
-    <label>Country:</label>
-    <select name="country">
-        <option>Bangladesh</option>
-        <option>India</option>
-        <option>Nepal</option>
-    </select><br><br>
+  <label>Country:</label>
+  <select name="country">
+      <option>Bangladesh</option>
+      <option>India</option>
+      <option>Nepal</option>
+  </select><br><br>
 
-    <label>Message:</label><br>
-    <textarea rows="3" cols="30"></textarea><br><br>
+  <label>Message:</label><br>
+  <textarea rows="3" cols="30"></textarea><br><br>
 
-    <label>Upload File:</label>
-    <input type="file"><br><br>
+  <label>Upload File:</label>
+  <input type="file"><br><br>
 
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
 </form>
 ```
 
