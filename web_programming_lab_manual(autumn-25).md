@@ -192,61 +192,61 @@
 * **`<tr>`** → Table row.
 * **`<th>`** → Table header cell.
 * **`<td>`** → Table data cell.
-  ```html
-  <table border="1">
-    <tr><th>Std Id</th><th>Attance</th><th>Mid</th><th>Final</th></tr>
-    <tr><td>CCE001</td><td>10</td><td>24</td><td>40</td></tr>
-    <tr><td>CCE002</td><td>10</td><td>25</td><td>44</td></tr>
-    <tr><td>CCE003</td><td>8</td><td>20</td><td>48</td></tr>
-    <tr><td>CCE004</td><td>10</td><td>30</td><td>38</td></tr>
-    <tr><td>CCE005</td><td>7</td><td>20</td><td>50</td></tr>
-  </table>
-  ```
+```html
+<table border="1">
+  <tr><th>Std Id</th><th>Attance</th><th>Mid</th><th>Final</th></tr>
+  <tr><td>CCE001</td><td>10</td><td>24</td><td>40</td></tr>
+  <tr><td>CCE002</td><td>10</td><td>25</td><td>44</td></tr>
+  <tr><td>CCE003</td><td>8</td><td>20</td><td>48</td></tr>
+  <tr><td>CCE004</td><td>10</td><td>30</td><td>38</td></tr>
+  <tr><td>CCE005</td><td>7</td><td>20</td><td>50</td></tr>
+</table>
+```
 * **`colspan`** → Merge table colums.
 * **`rowspan`** → Merge table rows.
-  ```html
-    <table border="1" cellpadding="5" cellspacing="0">
-        <tr><th colspan="10">Web Programming Lab Records</th></tr>
-        <tr>
-            <th rowspan="2">Std Id</th>
-            <th colspan="2">Lab-01</th>
-            <th colspan="2">Lab-02</th>
-            <th colspan="2">Lab-03</th>
-            <th colspan="2">Total</th>
-            <th rowspan="2">Final<br>(attendacne % marks)</th>
-        </tr>
-        <tr>
-            <th>Attend</th><th>Marks</th>
-            <th>Attend</th><th>Marks</th>
-            <th>Attend</th><th>Marks</th>
-            <th>Attend</th><th>Marks</th>
-        </tr>
-        <tr>
-            <td>CCE001</td>
-            <td>Y</td><td>10</td>
-            <td>Y</td><td>10</td>
-            <td>Y</td><td>10</td>
-            <td>3</td><td>30</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>CCE002</td>
-            <td>Y</td><td>10</td>
-            <td>N</td><td>00</td>
-            <td>Y</td><td>10</td>
-            <td>2</td><td>20</td>
-            <td>7</td>
-        </tr>
-        <tr>
-            <td>CCE003</td>
-            <td>Y</td><td>00</td>
-            <td>N</td><td>00</td>
-            <td>Y</td><td>10</td>
-            <td>2</td><td>10</td>
-            <td>4</td>
-        </tr>
-    </table>
-  ```
+```html
+  <table border="1" cellpadding="5" cellspacing="0">
+      <tr><th colspan="10">Web Programming Lab Records</th></tr>
+      <tr>
+          <th rowspan="2">Std Id</th>
+          <th colspan="2">Lab-01</th>
+          <th colspan="2">Lab-02</th>
+          <th colspan="2">Lab-03</th>
+          <th colspan="2">Total</th>
+          <th rowspan="2">Final<br>(attendacne % marks)</th>
+      </tr>
+      <tr>
+          <th>Attend</th><th>Marks</th>
+          <th>Attend</th><th>Marks</th>
+          <th>Attend</th><th>Marks</th>
+          <th>Attend</th><th>Marks</th>
+      </tr>
+      <tr>
+          <td>CCE001</td>
+          <td>Y</td><td>10</td>
+          <td>Y</td><td>10</td>
+          <td>Y</td><td>10</td>
+          <td>3</td><td>30</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>CCE002</td>
+          <td>Y</td><td>10</td>
+          <td>N</td><td>00</td>
+          <td>Y</td><td>10</td>
+          <td>2</td><td>20</td>
+          <td>7</td>
+      </tr>
+      <tr>
+          <td>CCE003</td>
+          <td>Y</td><td>00</td>
+          <td>N</td><td>00</td>
+          <td>Y</td><td>10</td>
+          <td>2</td><td>10</td>
+          <td>4</td>
+      </tr>
+  </table>
+```
 
 #### Forms
 * **`<form>`** → The container element for all form controls.
@@ -265,50 +265,50 @@
 * **`<select>`** → Creates a drop-down list.
   * **`<option>`**: Defines an available option within the `<select>` list.
 
-  ```html
-    <form action="#" method="post">
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
+```html
+  <form action="#" method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter first name"><br><br>
 
-      <label>Email:</label>
-      <input type="email" name="email"><br><br>
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
 
-      <label>Password:</label>
-      <input type="password" name="password"><br><br>
+    <label>Password:</label>
+    <input type="password" name="password"><br><br>
 
-      <label>Gender:</label>
-      <input type="radio" name="gender" value="male">Male
-      <input type="radio" name="gender" value="female">Female<br><br>
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female<br><br>
 
-      <label>Hobbies:</label>
-      <input type="checkbox" name="hobby" value="Reading">Reading
-      <input type="checkbox" name="hobby" value="Sports">Sports<br><br>
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobby" value="Reading">Reading
+    <input type="checkbox" name="hobby" value="Sports">Sports<br><br>
 
-      <label>Country:</label>
-      <select name="country">
-          <option>Bangladesh</option>
-          <option>India</option>
-          <option>Nepal</option>
-      </select><br><br>
+    <label>Country:</label>
+    <select name="country">
+        <option>Bangladesh</option>
+        <option>India</option>
+        <option>Nepal</option>
+    </select><br><br>
 
-      <label>Message:</label><br>
-      <textarea rows="3" cols="30"></textarea><br><br>
+    <label>Message:</label><br>
+    <textarea rows="3" cols="30"></textarea><br><br>
 
-      <label>Upload File:</label>
-      <input type="file"><br><br>
+    <label>Upload File:</label>
+    <input type="file"><br><br>
 
-      <input type="submit" value="Submit">
-      <input type="reset" value="Reset">
-  </form>
-  ```
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+```
 
-  #### Semantic HTML
-  * **`nav`** →
-  * **`header`** →
-  * **`main`** →
-    * **`section`** →
-    * **`div`** →
-  * **`footer`** →
+#### Semantic HTML
+* **`nav`** →
+* **`header`** →
+* **`main`** →
+  * **`section`** →
+  * **`div`** →
+* **`footer`** →
 
 ```html
 <!DOCTYPE html>
