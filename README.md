@@ -36,7 +36,7 @@
 
 ## Project Structure
 ```pgsql
-Project_Name
+Project_Name/
     static/
         css/
             style.css
