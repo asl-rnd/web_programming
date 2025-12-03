@@ -39,7 +39,9 @@
 Project_Name
     static/
         css/
+            style.css
         js/
+            script.js
     templates/
         index.html
     app.py
