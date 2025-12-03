@@ -1032,3 +1032,178 @@
       width: auto;
   }
   ```
+
+# ⭐ JavaScript — A Beginner’s Tutorial
+
+### We can write JavaScript in three ways:
+
+#### ✔ Inline
+```js
+<button onclick="alert('Hello!')">Click</button>
+```
+
+#### ✔ Internal
+```js
+<script>
+  console.log("Hello World");
+</script>
+```
+
+#### ✔ External (Best practice)
+```js
+<script src="script.js"></script>
+```
+
+### 📌 Basic JavaScript Structure
+
+#### ✔ Variables
+```js
+let name = "Sayem";
+const pi = 3.1416;
+var age = 25;
+```
+
+#### ✔ Functions
+```js
+function greet() {
+  console.log("Hello!");
+}
+greet();
+```
+
+#### ✔ Events
+```js
+document.getElementById("btn").onclick = function() {
+  alert("Button clicked!");
+};
+```
+
+#### ✔ Objects
+```js
+const person = {
+  name: "Sayem",
+  age: 25
+};
+```
+
+#### ✔ Arrays
+```js
+let numbers = [1, 2, 3, 4];
+```
+
+### 📌 JavaScript Paradigms
+
+JavaScript supports multiple programming styles.
+
+#### 1️⃣ Procedural Programming
+```js
+let a = 5;
+let b = 10;
+console.log(a + b);
+```
+
+#### 2️⃣ Object-Oriented Programming (OOP)
+```js
+class Car {
+  constructor(name) {
+    this.name = name;
+  }
+  start() {
+    console.log(`${this.name} is starting...`);
+  }
+}
+
+let c = new Car("Toyota");
+c.start();
+```
+
+#### 3️⃣ Functional Programming
+```js
+let numbers = [1, 2, 3];
+let doubled = numbers.map(n => n * 2);
+console.log(doubled);
+```
+
+### 📌 Control Flow
+
+#### ✔ Conditions
+```js
+if (score > 50) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+```
+
+#### ✔ Loops
+```js
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+```
+
+### 📌 Input & Output
+
+#### Console Output
+```js
+console.log("Debug message");
+```
+
+#### User Input
+```js
+let name = prompt("Enter your name:");
+alert("Hello " + name);
+```
+
+### 📌 Modern JavaScript Essentials
+
+- **`let`** and **`const`**
+- Arrow functions
+- Template strings
+- ES modules
+
+Example:
+```js
+const greet = (name) => {
+  console.log(`Hello, ${name}!`);
+};
+```
+
+### 📌 Beginner Practice Exercise
+
+#### 🧪 Task
+
+Create a page with a button. When clicked, it changes the color of a paragraph.
+
+#### HTML
+```html
+<p id="text">This is a paragraph.</p>
+<button id="btn">Click me</button>
+```
+
+#### JavaScript
+```js
+document.getElementById("btn").onclick = function() {
+  document.getElementById("text").style.color = "red";
+};
+```
+
+## 📌 DOM Manipulation
+
+DOM = Document Object Model<br>
+It allows JS to modify HTML and CSS dynamically.
+
+#### Change Text
+```js
+document.getElementById("title").innerText = "New Title";
+```
+
+#### Change Styles
+```js
+document.getElementById("title").style.color = "blue";
+```
+
+#### Add HTML
+```js
+document.body.innerHTML += "<p>Hello!</p>";
+```
