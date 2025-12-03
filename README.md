@@ -33,3 +33,16 @@
 </table>
 
 ---
+
+## Project Structure
+```pgsql
+Project_Name
+    static/
+        css/
+        js/
+    templates/
+        index.html
+    app.py
+    models.py
+    database.db
+```
