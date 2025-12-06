@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login | Python Auth App</title>
+<link rel="stylesheet" href="style_login.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <h2 onclick="goHome()">Python Authentication App</h2>
+    <div class="nav-btns">
+        <button onclick="location.href='login.html'">Login</button>
+        <button onclick="location.href='signup.html'">Signup</button>
+    </div>
+</nav>
+
+<div class="card">
+    <h3>Login</h3>
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <p id="loginMsg" class="msg"></p>
+    <button onclick="login()">Login</button>
+    <a href="#">Forgot Password?</a>
+</div>
+
+<footer>Web Programming | Abs_Sayem © 2025</footer>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{margin:0;font-family:Arial;background:#f6f6f6;}
+nav{padding:15px 20%;display:flex;justify-content:space-between;align-items:center;background:#ffffffd9;position:sticky;top:0;border-bottom:1px solid #ddd;}
+nav h2{cursor:pointer;}
+button{padding:6px 10px;border:1px solid #aaa;background:#fff;cursor:pointer;transition:.3s;}
+button:hover{background:#e4e4e4;}
+.nav-btns button{margin-left:10px;}
+.hero{display:flex;padding:20px 20%;height:30vh;}
+.hero-left,.hero-right{flex:1;}
+.hero-right button{display:block;margin:4px;padding:6px;}
+.profile-card{border:1px solid #ccc;padding:10px;border-radius:10px;margin-top:10px;text-align:center;}
+.empty{border-top:1px solid #ddd;height:50vh;margin:0px 20%;}
+footer{text-align:center;padding:10px;color:#444;}

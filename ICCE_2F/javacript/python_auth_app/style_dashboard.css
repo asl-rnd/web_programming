@@ -1,0 +1,17 @@
+body{margin:0;background:#fdfdfd;font-family:Arial;}
+nav{padding:15px 20%;background:#fff;border-bottom:1px solid #ccc;}
+.card{width:300px;margin:50px auto;padding:20px;border:1px solid #ccc;border-radius:10px;background:white;}
+input{width:100%;padding:8px;margin:8px 0;border:1px solid #888;}
+button{width:48%;padding:8px;margin-top:10px;border:1px solid #888;background:white;cursor:pointer;}
+button:hover{background:#e4e4e4;}
+.msg{color:blue;}
+footer{text-align:center;margin-top:550px;color:#444;}
+
+nav{padding:15px 20%;display:flex;justify-content:space-between;align-items:center;background:#ffffffd9;position:sticky;top:0;border-bottom:1px solid #ddd;}
+nav h2{cursor:pointer;}
+button{padding:6px 10px;border:1px solid #aaa;background:#fff;cursor:pointer;transition:.3s;}
+button:hover{background:#e4e4e4;}
+.nav-btns button{margin-left:10px;}
+.hero{display:flex;padding:20px 20%;height:30vh;}
+.hero-left,.hero-right{flex:1;}
+.hero-right button{display:block;margin:4px;padding:6px;}

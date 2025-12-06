@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<link rel="stylesheet" href="style_dashboard.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <h2 onclick="goHome()">Python Authentication App</h2>
+    <div class="nav-btns">
+        <button onclick="location.href='login.html'">Login</button>
+        <button onclick="location.href='signup.html'">Signup</button>
+    </div>
+</nav>
+
+<div class="card">
+    <h3>Uer Dashboard</h3>
+    <input type="text" id="userName">
+    <input type="email" id="userEmail" disabled>
+    <input type="password" id="userPassword">
+    <p id="updateMsg" class="msg"></p>
+    <button onclick="updateUser()">Update</button>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<footer>Web Programming | Abs_Sayem © 2025</footer>
+
+</body>
+</html>
