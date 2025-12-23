@@ -17,6 +17,29 @@
 
 ---
 
+## Project Analytics
+
+### Best Project:
+- Porject Name: **CrisisCore**
+- Group Name: Phoenix Protocol **`(Male)`**
+- Group Members: E251043, E251029, E251009, E251001, E251006
+
+### Competitors:
+- **WeatherWhisper** - Three Degrees (E243433, E251212, E251235) - **`Female`**
+- **WorkNest** - (E251203, E251219, E251220, E251226) - **`Female`**
+- **Daisy Drape** - Error-er Dukkho (E251223, E251224, E251211, E251216) - **`Female`**
+
+### Best Team Performance:
+- **WorkNest** - (E251203, E251219, E251220, E251226) - **`Female`**
+- **Daisy Drape** - Error-er Dukkho (E251223, E251224, E251211, E251216) - **`Female`**
+
+### Best Performer:
+-  **E243433** (Three Degrees) - WeatherWhisper - **`Female`**
+
+### Best Presenter:
+- **E251235** (Three Degrees) - WeatherWhisper - **`Female`**
+---
+
 ## Performance Evaluation Process
 <table>
     <tr>
